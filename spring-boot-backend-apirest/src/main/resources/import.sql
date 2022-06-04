@@ -1,0 +1,11 @@
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Gerson","Flores", "gerson.dlarosa@gmail.com", "2022-01-01");
