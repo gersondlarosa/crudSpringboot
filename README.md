@@ -116,3 +116,28 @@ por ultimo decoramos con @ResponseStatus(HttpStatus.CREATED) que te dara el codi
 
 
 ![5](https://user-images.githubusercontent.com/68626555/171970341-75f03f8a-3ca1-4920-8ff4-19263ca0fba9.png)
+
+##Escribir update y delete 
+
+Para escribir el update lo aremos en el controlador ya que ya los teniamos declarados en nuestro controlador #ClienteRestController 
+para guardar ocupamos el @PostMapping y crearemos un metodo de Tipo cliente que guardara y lo anotaremos con @RequestBody de tipo Cliente cliente
+y retornara del clienteService.save(cliente) recordemos que sabe ya fue declarado en nuestra interface
+
+        @Override
+	@Transactional
+	public Cliente save(Cliente cliente) {
+		// El sabe va a retornar la identidad guardada en base de datos que contiene el id y le pasamos el cliente
+		return clienteDao.save(cliente);
+	}
+
+
+
+luego crearemos nuestro delete que lo anotaremos con @DeleteMapping y la url es igual a la de PutMapping, @GetMapping y crearemos un metodo de tipo void que borrara lo que traiga nuestro cleinte por id 
+
+	@DeleteMapping("/clientes/{id}")
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void delete(@PathVariable Long id) {
+		clienteService.delete(id);
+	}
+
+![6](https://user-images.githubusercontent.com/68626555/172074694-594f211f-46e6-4965-aac5-bb977313579b.png)
